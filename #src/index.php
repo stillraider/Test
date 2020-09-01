@@ -4,9 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.min.css">
-    <title>Sub Sandwiches - Breakfast, Sandwiches, Salads & More | SUBWAY® | SUBWAY.com - United States (English)</title>
+    <title>Test</title>
 </head>
 <body>
+    <section class="paragraph">
+        <div class="paragraph__wrapper"></div>
+        <form action="/form.php" method="post" class="paragraph__form">
+            <div>
+                <h1 class="paragraph__title">send us massage</h1>
+                <div class="paragraph__cross"></div>
+            </div>
+            <label class="paragraph__label">
+                <p class="paragraph__subtitle">Full Name</p>
+                <input type="text" name="name" class="paragraph__inp" placeholder="Your Name" required>
+            </label>
+            <label class="paragraph__label">
+                <p class="paragraph__subtitle">Email</p>
+                <input type="email" name="email" class="paragraph__inp" placeholder="Your Email">
+            </label>
+            <label class="paragraph__label">
+                <p class="paragraph__subtitle">Message</p>
+                <textarea name="massage" placeholder="Your Message" class="paragraph__inp" required></textarea>
+            </label>
+            <p><input type="submit" value="SUBMIT" class="paragraph__submit"></p>
+        </form>
+    </section>
+    <div class="notification">
+        <div class="notification__wrap">
+            <p class="notification__text">Ваша форма успешно отправлена!</p>
+        </div>
+    </div>
     <section class="inbetweener">
         <div class="inbetweener__container">
             @@include("_header.html")
@@ -94,6 +121,7 @@
                     <div class="discover__flex">
                         <button class="discover__button"><span>Let’s Talk</span></button>
                     </div>
+                    <div class="discover__line"></div>
                 </div>
                 @@include("_footer.html")
             </div>
@@ -102,5 +130,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="scripts/script.min.js" defer></script>
+    <script src="scripts/form.min.js" defer></script>
 </body>
 </html>

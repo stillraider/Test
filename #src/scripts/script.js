@@ -1,4 +1,21 @@
+let discoverButton = $(".discover__button");
+let blockForm = $(".paragraph");
+let wrapper = $(".paragraph__wrapper");
+let submit = $(".paragraph__submit");
+let body = $(".body");
 
+function showForm () {
+    blockForm.toggleClass("showForm");
+    wrapper.toggle();
+    body.toggleClass("body");
+}
+    
+discoverButton.on("click", function () {
+    showForm ();
+})
+wrapper.on("click", function () {
+    showForm ();
+})
 
 
 
