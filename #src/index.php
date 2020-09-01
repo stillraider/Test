@@ -85,6 +85,18 @@
                     <div class="basement__list-items"><p>More client</p></div>
                 </div>
             </div>
+            <div class="discover"> 
+                <div class="discover__container">
+                    <div class="discover__info">
+                        <h1 class="discover__title">Intersted to woek with our team?</h1>
+                        <p class="discover__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    </div>
+                    <div class="discover__flex">
+                        <button class="discover__button"><span>Let’s Talk</span></button>
+                    </div>
+                </div>
+                @@include("_footer.html")
+            </div>
         </div>
     </section>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
