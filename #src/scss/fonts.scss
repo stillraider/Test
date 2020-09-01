@@ -13,6 +13,13 @@
     font-style: initial;
 }
 @font-face {
+    font-family: "Gilroy-Medium";
+    font-display: swap;
+    src: url("../fonts/Gilroy-Medium.woff") format("woff"), url("../fonts/Gilroy-Medium.woff2") format("woff2");
+    font-weight: initial;
+    font-style: initial;
+}
+@font-face {
     font-family: "Gilroy-Regular";
     font-display: swap;
     src: url("../fonts/Gilroy-Regular.woff") format("woff"), url("../fonts/Gilroy-Regular.woff2") format("woff2");
