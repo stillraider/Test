@@ -10,9 +10,9 @@
     <section class="paragraph">
         <div class="paragraph__wrapper"></div>
         <form action="/form.php" method="post" class="paragraph__form">
-            <div>
+            <div class="paragraph__wraps">
                 <h1 class="paragraph__title">send us massage</h1>
-                <div class="paragraph__cross"></div>
+                <div class="paragraph__cross">x</div>
             </div>
             <label class="paragraph__label">
                 <p class="paragraph__subtitle">Full Name</p>
@@ -96,20 +96,22 @@
     </section>
     <section class="basement">
         <div class="basement__rounding">
-            <div class="basement__container">
-                <div class="basement__heading">
-                    <h1 class="basement__title">Our Beloved Client</h1>
-                    <p class="basement__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                </div>
-                <div class="basement__list">
-                    <div class="basement__list-items"><p>logo client 1</p></div>
-                    <div class="basement__list-items"><p>logo client 2</p></div>
-                    <div class="basement__list-items"><p>logo client 3</p></div>
-                    <div class="basement__list-items"><p>logo client 4</p></div>
-                    <div class="basement__list-items"><p>logo client 5</p></div>
-                    <div class="basement__list-items"><p>logo client 6</p></div>
-                    <div class="basement__list-items"><p>logo client 7</p></div>
-                    <div class="basement__list-items"><p>More client</p></div>
+            <div class="basement__indent">
+                <div class="basement__container">
+                    <div class="basement__heading">
+                        <h1 class="basement__title">Our Beloved Client</h1>
+                        <p class="basement__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    </div>
+                    <div class="basement__list">
+                        <div class="basement__list-items"><p>logo client 1</p></div>
+                        <div class="basement__list-items"><p>logo client 2</p></div>
+                        <div class="basement__list-items"><p>logo client 3</p></div>
+                        <div class="basement__list-items"><p>logo client 4</p></div>
+                        <div class="basement__list-items"><p>logo client 5</p></div>
+                        <div class="basement__list-items"><p>logo client 6</p></div>
+                        <div class="basement__list-items"><p>logo client 7</p></div>
+                        <div class="basement__list-items"><p>More client</p></div>
+                    </div>
                 </div>
             </div>
             <div class="discover"> 

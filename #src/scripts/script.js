@@ -1,4 +1,5 @@
 let discoverButton = $(".discover__button");
+let cross = $(".paragraph__cross");
 let blockForm = $(".paragraph");
 let wrapper = $(".paragraph__wrapper");
 let submit = $(".paragraph__submit");
@@ -9,6 +10,11 @@ function showForm () {
     wrapper.toggle();
     body.toggleClass("body");
 }
+
+cross.on("click", function () {
+    blockForm.toggleClass("showForm");
+    wrapper.toggle();
+})
     
 discoverButton.on("click", function () {
     showForm ();
