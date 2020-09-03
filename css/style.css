@@ -218,7 +218,7 @@ img {
 }
 
 .inbetweener__img {
-  background: url(/img/inbetweener/illustration.svg) center/contain no-repeat;
+  background: url(../img/inbetweener/illustration.svg) center/contain no-repeat;
   margin-top: 15px;
   width: 688px;
   height: 612px;
@@ -301,13 +301,13 @@ img {
 
 .showcase__columns:nth-child(2) .small-block:nth-child(1) .small-block__img {
   margin-top: -20px;
-  background: url(/img/small-block/3.svg) center/cover no-repeat;
+  background: url(../img/small-block/3.svg) center/cover no-repeat;
   width: 236px;
   height: 197px;
 }
 
 .showcase__columns:nth-child(2) .small-block:nth-child(2) .small-block__img {
-  background: url(/img/small-block/2.svg) center/cover no-repeat;
+  background: url(../img/small-block/2.svg) center/cover no-repeat;
   margin-right: 40px;
   width: 169px;
   height: 131px;
@@ -343,7 +343,7 @@ img {
 }
 
 .showcase .small-block__img {
-  background: url(/img/small-block/1.svg) center/cover no-repeat;
+  background: url(../img/small-block/1.svg) center/cover no-repeat;
   width: 192px;
   height: 132px;
 }
@@ -384,7 +384,7 @@ img {
 
 .showcase .small-block__button::before {
   content: "";
-  background: url(/img/button/Vector.svg);
+  background: url(../img/button/Vector.svg);
   margin: 8px 0;
   right: 0;
   position: absolute;
